@@ -1,31 +1,52 @@
 #body {
 
       }
-.navigation {
+.navbar {
   position-top: fixed;
   text-align: right;
-  margin: auto;
+  margin: 0px
   align-content: center;
+  background-color: orange;
+
 }
-.navigation ul li {
+.navbar ul li {
   display: inline-block;
-  text-align: left;
+  text-align: justify;
   list-style: none;
   text-decoration: none;
-  padding: 30px;
-  align-self: flex-start;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 15px;
   }
-  .navigation ul li a{
+  .navbar ul li a{
     text-decoration: none;
+    color: blue;
+  }
+  .content-about  {
+      align-content: center;
   }
   .content-about p {
-text-align: justify;
-      }
+    text-align: justify;
+  }
   .content-about ol li {
     text-align: left;
   }
   .content-about ol li a{
     text-decoration: none;
     align-content: flex-start;
+  }
+
+  .content-about ul {
+text-align: center;
+  }
+
+  .content-about ul li {
+    text-decoration: none;
+    text-align: justify;
+    align-content: flex-start;
+  }
+  .profile-pic {
+    margin-top: 20px;
+  }
+.profile-def {
+    margin-top: 20px;
   }
