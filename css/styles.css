@@ -1,9 +1,10 @@
 #body {
   background-color: url("images/kromweb_min.png" alt="kromweb technology"); }
 .navigation {
-  position: fixed;
+  position-top: fixed;
   text-align: center;
   margin: auto;
+  align-content: center;
 }
 .navigation ul li {
   display: inline-block;
