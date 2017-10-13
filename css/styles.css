@@ -16,3 +16,7 @@
   .navigation ul li a{
     text-decoration: none;
   }
+  .about-content ol li a{
+    text-decoration: none;
+    align-content: flex-start;
+  }
