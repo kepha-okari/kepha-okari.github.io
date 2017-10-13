@@ -10,5 +10,9 @@
 .navigation ul li {
   display: inline-block;
   list-style: none;
+  text-decoration: none;
   padding: 30px;
+  }
+  .navigation ul li a{
+    text-decoration: none;
   }
