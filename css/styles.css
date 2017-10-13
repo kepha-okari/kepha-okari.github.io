@@ -6,4 +6,5 @@
 .navigation ul li {
   display: inline-block;
   list-style: none;
+  padding: 30px;
   }
