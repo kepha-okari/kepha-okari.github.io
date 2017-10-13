@@ -1,3 +1,5 @@
+#body {
+  background-color: url("images/kromweb_min.png" alt="kromweb technology"); }
 .navigation {
   position: fixed;
   text-align: center;
