@@ -1,0 +1,9 @@
+.navigation {
+  position: fixed;
+  text-align: center;
+  margin: auto;
+}
+.navigation ul li {
+  display: inline-block;
+  list-style: none;
+  }
