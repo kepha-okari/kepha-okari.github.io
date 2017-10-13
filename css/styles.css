@@ -3,20 +3,29 @@
       }
 .navigation {
   position-top: fixed;
-  text-align: center;
+  text-align: right;
   margin: auto;
   align-content: center;
 }
 .navigation ul li {
   display: inline-block;
+  text-align: left;
   list-style: none;
   text-decoration: none;
   padding: 30px;
+  align-self: flex-start;
+  font-size: 20px;
   }
   .navigation ul li a{
     text-decoration: none;
   }
-  .about-content ol li a{
+  .content-about p {
+text-align: justify;
+      }
+  .content-about ol li {
+    text-align: left;
+  }
+  .content-about ol li a{
     text-decoration: none;
     align-content: flex-start;
   }
