@@ -1,20 +1,48 @@
-#body {
 
-      }
+body{
+}
+h1 {}
+
+.body {
+
+background-image: url('../images/kepha-trees.jpg');
+/*width: 720px;
+height: 120px;*/
+background-size: cover;
+opacity: 40;
+  }
 .navbar {
   position-top: fixed;
   text-align: right;
-  margin: 0px
-  align-content: center;
-  background-color: orange;
+  margin: 0px;
+  background-color: white;
 
+}
+
+.name {
+  margin-right: 0px;
+  top:220px; 
+  position: relative;
+  font: 80px; 
+
+}
+.name h1 {
+ 
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 80px;
+
+}
+.navbar ul {
+  margin-right: 100px;
 }
 .navbar ul li {
   display: inline-block;
   text-align: justify;
   list-style: none;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 50px 10px 10px;
   font-size: 15px;
   }
   .navbar ul li a{
@@ -23,13 +51,14 @@
   }
   .content-about  {
       align-content: center;
+      margin-top: 40px;
   }
   .content-about p {
     text-align: justify;
   }
   .content-about ol li {
     text-align: left;
-  }
+      }
   .content-about ol li a{
     text-decoration: none;
     align-content: flex-start;
@@ -42,7 +71,6 @@ text-align: center;
   .content-about ul li {
     text-decoration: none;
     text-align: justify;
-    align-content: flex-start;
   }
   .profile-pic {
     margin-top: 20px;
