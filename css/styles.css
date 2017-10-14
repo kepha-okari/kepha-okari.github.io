@@ -31,7 +31,17 @@ opacity: 40;
   text-align: center;
   position: relative;
   color: white;
+  font-weight: bold;
+
   font-size: 80px;
+}
+.name h3 {
+ 
+  
+  color: white;
+  font-weight: lighter;
+
+  font-size: 40px;
 
 }
 .navbar ul {
