@@ -21,7 +21,7 @@ opacity: 40;
 
 .name {
   margin-right: 0px;
-  top:220px; 
+  top:250px; 
   position: relative;
   font: 80px; 
 
@@ -32,42 +32,52 @@ opacity: 40;
   position: relative;
   color: white;
   font-weight: bold;
-
   font-size: 80px;
 }
-.name h3 {
+.name h2 {
  
-  
+  text-align: center;
+  position: relative;
   color: white;
   font-weight: lighter;
+  font-size: 70px;
+}
+.name h3 {
 
-  font-size: 40px;
+  color: #db3300;
+  font-weight: lighter;
+  font-size: 50px;
 
 }
 .navbar ul {
+
   margin-right: 100px;
 }
+
 .navbar ul li {
   display: inline-block;
-  text-align: justify;
+  text-align: right;
   list-style: none;
   text-decoration: none;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 5px 10px 5px;
   font-size: 15px;
+
   }
+
   .navbar ul li a{
     text-decoration: none;
-    color: blue;
-  }
+    color: #db3300;
+   }
+
   .content-about  {
-      align-content: center;
-      margin-top: 40px;
+    align-content: center;
+    margin-top: 40px;
   }
   .content-about p {
     text-align: justify;
   }
   .content-about ol li {
-    text-align: left;
+    text-align: right;
       }
   .content-about ol li a{
     text-decoration: none;
@@ -75,7 +85,7 @@ opacity: 40;
   }
 
   .content-about ul {
-text-align: center;
+    text-align: center;
   }
 
   .content-about ul li {
@@ -83,8 +93,8 @@ text-align: center;
     text-align: justify;
   }
   .profile-pic {
-    margin-top: 20px;
+     margin-top: 20px;
   }
-.profile-def {
-    margin-top: 20px;
+  .profile-def {
+     margin-top: 20px;
   }
