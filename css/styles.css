@@ -1,18 +1,20 @@
 
 body{
 }
+.ig:hover {background-color:orange;  }
 .img {
  
      background-image: url('../images/kepha-trees.jpg');    
      background-size: cover;
-     height: 100px;
      margin-top: 40px;
      margin-left: 70px;
      width:200px; height:200px;
    /*  border-radius: 200px;*/
+   
      border-top-left-radius: 200px;
      border-bottom-right-radius: 200px;
      border-bottom-left-radius: 200px;
+
     
 }
 
@@ -86,18 +88,10 @@ opacity: 40;
   }
 
   .navbar ul li a{
-    
+
     text-decoration: none;
     color: #db3300;
   }
-  /*.navbar ul li a:hover{
-    background-colour: #eee;
-    color: #db3300;
-  }*/
-  ./*nav-pills ul li a:hover {
-    color: red;
- 
-  }*/
  
   .container {
    width: 100%;
@@ -106,6 +100,15 @@ opacity: 40;
   .content-about  {
     align-content: center;
     margin-top: 50px;
+    border-color: #db3300;
+
+  }
+  .content-about2  {
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 200px;
+    border-color: #db3300;
   }
   .content-about p {
     text-align: justify;
