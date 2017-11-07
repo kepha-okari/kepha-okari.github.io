@@ -1,8 +1,8 @@
 # My portofolio
 
-#### gives details of my professionalism , {11/11/2017}
+#### as of 11/11/2017
 
-#### By **{Kepha Okari}**
+#### By **Kepha Okari**
 
 ## Description
 
