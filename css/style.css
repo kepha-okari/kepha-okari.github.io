@@ -64,7 +64,9 @@ Responsive media queries
 
 .navbar-brand {
   font-size: 36px;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Sirin Stencil', cursive;
+  color: rgb(255, 54, 0);
+
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
