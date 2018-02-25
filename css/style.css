@@ -47,7 +47,7 @@ Responsive media queries
   min-height: 630px;
   position: center;
   background-repeat:no-repeat;
-  background-position:center;
+  /*background-position:center;*/
 }
 
 .statement-opener{
@@ -95,12 +95,22 @@ Responsive media queries
 @media (max-width: 768px) {
 	.navbar-collapse {
 		background: rgba(50, 60, 70, 0.9);
+    margin-bottom: 2%;
 	}
   .statement-opener{
     margin-top: 85%;
     margin-left: 12%;
   }
 
+  .header {
+    background: url('../img/bg-banner03.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 630px;
+    padding-top: n-top: 20px;
+    position: center;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
 }
 
 .top-nav-collapse {
@@ -153,11 +163,81 @@ Responsive media queries
   font-family: 'Satisfy', cursive;
 }
 
-#about {
+/*#about {
   background: url('../img/about-banner.jpg') no-repeat;
   background-size: cover;
   margin-bottom: -3px;
+}*/
+
+.about {
+  position: relative;
+  width: 50%;
+  margin-top:2%;
 }
+#about{
+    background-color: rgb(255, 69, 0);
+  height:100vh;
+}
+
+#skills{
+  background-color:rgb(0, 160, 255);
+  height:100vh;
+}
+#my-work{
+  background-color:rgb(0, 0, 0);
+  height:40%;
+}
+#portfolio {
+  background-color: #f0f1e9;
+  height:100vh;
+}
+#contact{
+  background-color:rgb(0, 160, 255);
+  height:100vh;
+}
+#portrait>img{
+  border-radius: 50%;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  /*border-radius: 50%;*/
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.about:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+/*               sjheueueuwuesi BAOUT ME*/
 
 .section-padding {
   padding: 60px 0px;
@@ -184,9 +264,6 @@ Responsive media queries
   font-weight: 400;
 }
 
-#portfolio {
-  background-color: #f0f1e9;
-}
 
 .grid-padding {
   padding: 0 8px;
@@ -346,11 +423,13 @@ footer {
   opacity: .5;
   display: inline-block;
   margin: 0;
+
 }
 
 .social-list li a {
   font-size: 28px;
   margin-right: 15px;
+    color: rgb(240, 73, 20);
 }
 
 .type-underline, .type-underline:hover {
@@ -426,4 +505,81 @@ Responsive media queries
   .title-text {
     margin-bottom: 15px;
   }
+}
+
+
+a {
+color: #fff;
+text-decoration: none;
+}
+
+
+.social {
+
+top: 20px;
+}
+.social ul {
+padding: 0px;
+-webkit-transform: translate(-270px, 0);
+-moz-transform: translate(-270px, 0);
+-ms-transform: translate(-270px, 0);
+-o-transform: translate(-270px, 0);
+transform: translate(-270px, 0);
+}
+.social ul li {
+display: block;
+margin:15px;
+background: rgba(0, 0, 0, 0.36);
+width: 300px;
+text-align: right;
+padding: 10px;
+-webkit-border-radius: 0 30px 30px 0;
+-moz-border-radius: 0 30px 30px 0;
+border-radius: 0 30px 30px 0;
+-webkit-transition: all 1s;
+-moz-transition: all 1s;
+-ms-transition: all 1s;
+-o-transition: all 1s;
+transition: all 1s;
+}
+.social ul li:hover {
+-webkit-transform: translate(110px, 0);
+-moz-transform: translate(110px, 0);
+-ms-transform: translate(110px, 0);
+-o-transform: translate(110px, 0);
+transform: translate(110px, 0);
+background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+color: #000;
+}
+.social ul li:hover i {
+color: #fff;
+background: red;
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
+-webkit-transition: all 1s;
+-moz-transition: all 1s;
+-ms-transition: all 1s;
+-o-transition: all 1s;
+transition: all 1s;
+}
+.social ul li i {
+margin-left: 10px;
+color: #000;
+background: #fff;
+padding: 10px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+font-size: 20px;
+background: #ffffff;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
 }
