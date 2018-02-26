@@ -163,16 +163,15 @@ Responsive media queries
   font-family: 'Satisfy', cursive;
 }
 
-/*#about {
-  background: url('../img/about-banner.jpg') no-repeat;
-  background-size: cover;
-  margin-bottom: -3px;
-}*/
-
 .about {
   position: relative;
   width: 50%;
   margin-top:2%;
+}
+
+#sub-title{
+  margin-top: 5px;
+  margin-bottom:5px;
 }
 #about{
     background-color: rgb(255, 69, 0);
@@ -180,7 +179,7 @@ Responsive media queries
 }
 
 #skills{
-  background-color:rgb(0, 160, 255);
+  background-color:white;
   height:100vh;
 }
 #my-work{
@@ -192,7 +191,7 @@ Responsive media queries
   height:100vh;
 }
 #contact{
-  background-color:rgb(0, 160, 255);
+  background-color:rgb(255, 255, 25);
   height:100vh;
 }
 #portrait>img{
@@ -217,7 +216,7 @@ Responsive media queries
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #ff4d0b;
 }
 
 .about:hover .overlay {
@@ -429,7 +428,7 @@ footer {
 .social-list li a {
   font-size: 28px;
   margin-right: 15px;
-    color: rgb(240, 73, 20);
+  4color: rgb(240, 73, 20);
 }
 
 .type-underline, .type-underline:hover {
