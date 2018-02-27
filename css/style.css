@@ -98,7 +98,7 @@ Responsive media queries
     margin-bottom: 2%;
 	}
   .statement-opener{
-    margin-top: 85%;
+    margin-top: 98%;
     margin-left: 12%;
   }
 
@@ -108,6 +108,7 @@ Responsive media queries
     min-height: 630px;
     padding-top: n-top: 20px;
     position: center;
+    margin-bottom: 0;
     background-repeat:no-repeat;
     background-position:center;
   }
@@ -174,7 +175,7 @@ Responsive media queries
   margin-bottom:5px;
 }
 #about{
-    background-color: rgb(255, 69, 0);
+  background-color: rgb(255, 69, 0);
   height:100vh;
 }
 
@@ -188,11 +189,11 @@ Responsive media queries
 }
 #portfolio {
   background-color: #f0f1e9;
-  height:100vh;
+  /*height:100vh;*/
 }
 #contact{
   background-color:rgb(255, 255, 25);
-  height:100vh;
+  /*height:100vh;*/
 }
 #portrait>img{
   border-radius: 50%;
@@ -362,7 +363,7 @@ blockquote {
 
 footer {
   padding: 40px 0;
-  background: #F2F3EB;
+  background-color: rgb(255, 69, 0);
 }
 
 .footer a {
