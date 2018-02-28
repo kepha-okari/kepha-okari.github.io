@@ -18,7 +18,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
-  content: none;
+  content: non
 }
 
 table {
@@ -98,7 +98,7 @@ Responsive media queries
     margin-bottom: 2%;
 	}
   .statement-opener{
-    margin-top: 98%;
+    margin-top: 100%;
     margin-left: 12%;
   }
 
@@ -170,9 +170,24 @@ Responsive media queries
   margin-top:2%;
 }
 
+.project-links{
+
+}
+.project-links li{
+  display:inline-block;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 2px;
+  float:left;
+  margin-left:33px;
+  margin-bottom:20px;
+
+}
+
 #sub-title{
-  margin-top: 5px;
-  margin-bottom:5px;
+  margin-top: 0px;
+  margin-bottom:60px;
 }
 #about{
   background-color: rgb(255, 69, 0);
