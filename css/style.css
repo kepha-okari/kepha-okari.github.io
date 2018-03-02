@@ -192,12 +192,12 @@ Responsive media queries
 }
 #about{
   background-color: rgb(255, 69, 0);
-  height:100vh;
+  /*height:100vh;*/
 }
 
 #skills{
   background-color:white;
-  height:100vh;
+  /*height:100vh;*/
 }
 #my-work{
   background-color:rgb(0, 0, 0);
@@ -213,6 +213,12 @@ Responsive media queries
 }
 #portrait>img{
   border-radius: 50%;
+}
+#project-title{
+  margin-bottom:20px;
+  margin-top:20px;
+
+  text-align: center;
 }
 
 
