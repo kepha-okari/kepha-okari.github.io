@@ -34,6 +34,12 @@ a:hover, a:focus, a:active {
   text-decoration: none;
   outline: none;
 }
+.more-button{
+  margin-left: 90%;
+  margin-top:0%;
+  margin-bottom: 80%;
+  position:
+}
 
 /***********************************
 ************************************
@@ -57,13 +63,14 @@ Responsive media queries
 
 .navbar-default {
   background-color: transparent;
-  border: 0px;
+  border: 0px;"more-button
   padding: 20px 0;
   transition: all 0.3s;
 }
 
 .navbar-brand {
   font-size: 36px;
+  font-weight: bolder;
   font-family: 'Sirin Stencil', cursive;
   color: rgb(255, 54, 0);
 
@@ -75,10 +82,12 @@ Responsive media queries
 }
 
 .navbar-default .navbar-nav>li>a {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   color: rgb(255, 54, 0);
   outline: none;
+  margin-right: 0px;
+
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -100,6 +109,10 @@ Responsive media queries
   .statement-opener{
     margin-top: 100%;
     margin-left: 12%;
+  }
+  .more-button{
+    margin:auto;
+    margin-top:0%;
   }
 
   .header {
@@ -187,12 +200,12 @@ Responsive media queries
 }
 
 #sub-title{
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom:60px;
 }
 #about{
   background-color: rgb(255, 69, 0);
-  /*height:100vh;*/
+  height:100vh;
 }
 
 #skills{
@@ -208,15 +221,22 @@ Responsive media queries
   /*height:100vh;*/
 }
 #contact{
-  background-color:rgb(255, 255, 25);
-  /*height:100vh;*/
+  width: 100%;
+  background-color: RGBA(8, 7, 7, 0.92);
+  height:85vh;
 }
+
+#contact .btn-primary {
+  background: #BE2525;
+  border: 1px solid #BE2525;
+}
+
 #portrait>img{
   border-radius: 50%;
-}
+}mongo db
 #project-title{
   margin-bottom:20px;
-  margin-top:20px;
+  margin-top  :20px;
 
   text-align: center;
 }
@@ -339,15 +359,6 @@ blockquote {
   margin: 16px 0 5px;
 }
 
-#contact {
-  width: 100%;
-  background-color: RGBA(8, 7, 7, 0.92);
-}
-
-#contact .btn-primary {
-  background: #BE2525;
-  border: 1px solid #BE2525;
-}
 
 .validation {
   color: red;
@@ -413,13 +424,14 @@ footer {
   margin-top: 0;
   margin-bottom: 1.625em;
   padding-right: 10px;
+
 }
 
 .contact-sec p {
   color: #fff;
   font-size: 18px;
   padding: 16px 0px 24px;
-}
+}<li><a href="#contact">Contact</a></li>
 
 .contact-sec i {
   padding-right: 15px;
@@ -533,75 +545,4 @@ Responsive media queries
 a {
 color: #fff;
 text-decoration: none;
-}
-
-
-.social {
-
-top: 20px;
-}
-.social ul {
-padding: 0px;
--webkit-transform: translate(-270px, 0);
--moz-transform: translate(-270px, 0);
--ms-transform: translate(-270px, 0);
--o-transform: translate(-270px, 0);
-transform: translate(-270px, 0);
-}
-.social ul li {
-display: block;
-margin:15px;
-background: rgba(0, 0, 0, 0.36);
-width: 300px;
-text-align: right;
-padding: 10px;
--webkit-border-radius: 0 30px 30px 0;
--moz-border-radius: 0 30px 30px 0;
-border-radius: 0 30px 30px 0;
--webkit-transition: all 1s;
--moz-transition: all 1s;
--ms-transition: all 1s;
--o-transition: all 1s;
-transition: all 1s;
-}
-.social ul li:hover {
--webkit-transform: translate(110px, 0);
--moz-transform: translate(110px, 0);
--ms-transform: translate(110px, 0);
--o-transform: translate(110px, 0);
-transform: translate(110px, 0);
-background: rgba(255, 255, 255, 0.4);
-}
-.social ul li:hover a {
-color: #000;
-}
-.social ul li:hover i {
-color: #fff;
-background: red;
--webkit-transform: rotate(360deg);
--moz-transform: rotate(360deg);
--ms-transform: rotate(360deg);
--o-transform: rotate(360deg);
-transform: rotate(360deg);
--webkit-transition: all 1s;
--moz-transition: all 1s;
--ms-transition: all 1s;
--o-transition: all 1s;
-transition: all 1s;
-}
-.social ul li i {
-margin-left: 10px;
-color: #000;
-background: #fff;
-padding: 10px;
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
-font-size: 20px;
-background: #ffffff;
--webkit-transform: rotate(0deg);
--moz-transform: rotate(0deg);
--ms-transform: rotate(0deg);
--o-transform: rotate(0deg);
-transform: rotate(0deg);
 }
