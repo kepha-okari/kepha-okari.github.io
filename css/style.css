@@ -99,7 +99,11 @@ Responsive media queries
   color: #fffde0;
   background-color: transparent;
 }
-
+.about-me{
+  margin-top:20px;
+  margin-bottom: 20px;
+  text-align:justify;padding:10px;
+}
 
 @media (max-width: 768px) {
 	.navbar-collapse {
@@ -114,6 +118,12 @@ Responsive media queries
     margin:auto;
     margin-top:0%;
   }
+  .about-me{
+    margin-top:20px;
+    /*margin-bottom: 20px;*/
+    text-align:justify;padding:10px;
+  }
+tyle=" text-align:justify;padding:10px;" >
 
   .header {
     background: url('../img/bg-banner03.jpg') no-repeat fixed;
