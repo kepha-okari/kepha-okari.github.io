@@ -37,8 +37,6 @@ a:hover, a:focus, a:active {
 .more-button{
   margin-left: 90%;
   margin-top:0%;
-  margin-bottom: 80%;
-  position:
 }
 
 /***********************************
@@ -48,7 +46,7 @@ Responsive media queries
 ***********************************/
 
 .header {
-  background: url('../img/bg-banner03.jpg') no-repeat fixed;
+  background: url('') no-repeat fixed;
   background-size: cover;
   min-height: 630px;
   position: center;
@@ -227,6 +225,13 @@ Responsive media queries
 #about{
   background-color: rgb(255, 69, 0);
   height:100vh;
+}
+#my-description{
+  text-align:justify;
+  padding:10px;
+  font-size:20px;
+  color:black;
+  /*font-weight: bold;*/
 }
 
 #skills{
@@ -455,8 +460,7 @@ footer {
   color: #fff;
   font-size: 18px;
   padding: 16px 0px 24px;
-}<li><a href="#contact">Contact</a></li>
-
+}
 .contact-sec i {
   padding-right: 15px;
 }
