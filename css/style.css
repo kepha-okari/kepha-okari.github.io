@@ -46,12 +46,11 @@ Responsive media queries
 ***********************************/
 
 .header {
-  background: url('') no-repeat fixed;
+  background: url('../img/bg-banner03.jpg') no-repeat fixed;
   background-size: cover;
   min-height: 630px;
   position: center;
   background-repeat:no-repeat;
-  /*background-position:center;*/
 }
 
 .statement-opener{
